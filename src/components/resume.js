@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import Education from './education';
+import Experience from './experience';
+import Skill from './skills';
 
 class Resume extends Component {
     render(){
@@ -31,9 +33,44 @@ class Resume extends Component {
                         <hr style={{borderTop: '3px solid #833fb2', width:'50%'}} />
                         </Cell>
                         <Cell className="resume-right-col" col={8}>
+                            <h2>Education</h2>
                             <Education 
-                                startYear={2012}
-                                
+                                startYear={2014} 
+                                endYear={2016}
+                                schoolName="KANG WON National Univ"
+                                schoolDescription="InterNational Univ"
+                            />
+                            <Education 
+                                startYear={2014} 
+                                endYear={2016}
+                                schoolName="KANG WON National Univ"
+                                schoolDescription="InterNational Univ"
+                            />
+                            <hr style={{borderTop:'3px solid #e22947'}} />
+                            <h2>Experience</h2>
+                            <Experience 
+                                startYear={2014} 
+                                endYear={2016}
+                                jobName="KANG WON National Univ"
+                                jobDescription="InterNational Univ"
+                            />
+                            <hr style={{borderTop:'3px solid #e22947'}} />
+                            <h2>Skills</h2>
+                            <Skill 
+                                skills="JavaScript"
+                                progress={100}
+                            />
+                            <Skill 
+                                skills="HTML/CSS"
+                                progress={80}
+                            />
+                            <Skill 
+                                skills="NodeJS"
+                                progress={50}
+                            />
+                            <Skill 
+                                skills="React / React-Native"
+                                progress={100}
                             />
                         </Cell>
                 </Grid>

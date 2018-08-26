@@ -30,7 +30,7 @@ class AboutMe extends Component {
                         <p><a href="https://seankim84.github.io/PortFolio/Profile.html" target="blank">https://seankim84.github.io/PortFolio/Profile.html</a></p>
                         <hr style={{borderTop: '3px solid #833fb2', width:'50%'}} />
                         </Cell>
-                        <Cell className="resume-right-col" col={8}>
+                        <Cell className="about-right-col" col={8}>
                             <h2>Introduce</h2>
                             <Introduce 
                                 startYear={2014} 

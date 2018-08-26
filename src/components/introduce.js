@@ -7,7 +7,7 @@ class Introduce extends Component {
             <div>
                 <Grid>
                     <Cell>
-                    
+                        
                     </Cell>
                 </Grid>
             </div>

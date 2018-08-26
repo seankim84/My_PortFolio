@@ -75,6 +75,14 @@
   padding-right: 5rem;
 }
 
+/* aboutme page css */
+.about-right-col {
+  background: white(201, 192, 186);
+  color: black;
+  padding: 2em;
+}
+
+
 /* contact page css */
 
 .avatar-img {
